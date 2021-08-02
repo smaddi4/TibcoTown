@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:extns="http://tns.tibco.com/bw/json/1627645563205" xmlns:tns="http://tns.tibco.com/bw/json/1626083862904" elementFormDefault="qualified" targetNamespace="http://tns.tibco.com/bw/json/1626083862904">
+    <import namespace="http://tns.tibco.com/bw/json/1627645563205"/>
+    <complexType name="GetKPIDetailsResponseElementType">
+    <sequence>
+      <element maxOccurs="1" minOccurs="0" name="GetKPIDetailsResponse">
+        <complexType>
+          <sequence>
+            <element maxOccurs="1" minOccurs="0" name="UserId" type="integer"/>
+            <element maxOccurs="1" minOccurs="0" name="Name" type="string"/>
+            <element maxOccurs="1" minOccurs="0" name="ProfilePic" type="string"/>
+            <element maxOccurs="1" minOccurs="0" name="Level" type="integer"/>
+            <element maxOccurs="1" minOccurs="0" name="OverallBadge" type="string"/>
+            <element maxOccurs="1" minOccurs="0" name="KPICoins">
+              <complexType>
+                <sequence>
+                  <element maxOccurs="unbounded" minOccurs="0" name="CoinsDetails">
+                    <complexType>
+                      <sequence>
+                        <element maxOccurs="1" minOccurs="0" name="KPIId" type="integer"/>
+                        <element maxOccurs="1" minOccurs="0" name="Coins" type="integer"/>
+                      </sequence>
+                    </complexType>
+                  </element>
+                </sequence>
+              </complexType>
+            </element>
+
+            <element maxOccurs="1" minOccurs="0" name="TotalEarnedCoins" type="integer"/>
+            <element maxOccurs="1" minOccurs="0" name="TotalAvailableCoins" type="integer"/>
+            <element maxOccurs="1" minOccurs="0" name="KPIConfigurations">
+              <complexType>
+                <sequence>
+                  <element maxOccurs="unbounded" minOccurs="0" name="KPIs">
+                    <complexType>
+                      <sequence>
+                        <element maxOccurs="1" minOccurs="0" name="KPIId" type="integer"/>
+                        <element maxOccurs="1" minOccurs="0" name="KPIName" type="string"/>
+                        <element maxOccurs="1" minOccurs="0" name="Enabled" type="boolean"/>
+                       
+                      </sequence>
+                    </complexType>
+                  </element>
+                </sequence>
+              </complexType>
+            </element>
+            <element maxOccurs="1" minOccurs="0" name="AssetDetails">
+              <complexType>
+                <sequence>
+                  <element maxOccurs="unbounded" minOccurs="0" name="Assets">
+                    <complexType>
+                      <sequence>
+                        <element maxOccurs="1" minOccurs="0" name="AssetName" type="string"/>
+                        <element maxOccurs="1" minOccurs="0" name="AssetId" type="integer"/>
+                        <element maxOccurs="1" minOccurs="0" name="Quantity" type="integer"/>
+                        <element maxOccurs="unbounded" minOccurs="0" name="Grid" type="integer"/>
+                      </sequence>
+                    </complexType>
+                  </element>
+                </sequence>
+              </complexType>
+            </element>
+            <element maxOccurs="1" minOccurs="0" name="Status">
+              <complexType>
+                <sequence>
+                  <element maxOccurs="1" minOccurs="0" name="StatusCode" type="integer"/>
+                  <element maxOccurs="1" minOccurs="0" name="StatusMessage" type="string"/>
+                </sequence>
+              </complexType>
+            </element>
+            
+          </sequence>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+  <element name="Root" type="extns:GetKPIResponseElementType"/>
+</schema>

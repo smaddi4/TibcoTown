@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: e2d615f97f40ab64b8cd6d81fd8804c6
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Tabia
+  fontNames:
+  - Tabia
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b43f893001c7b4f48a515f1b87fbeba1, type: 3}
+  - {fileID: 12800000, guid: 352917804abbfd94c93d33db4b49fead, type: 3}
+  - {fileID: 12800000, guid: a2c19852f5182cf42b9a591916a5b4d3, type: 3}
+  - {fileID: 12800000, guid: 5123f0d22bfc1b547819ea48f3415c08, type: 3}
+  - {fileID: 12800000, guid: 583fcb68e41c054489308112daf20907, type: 3}
+  - {fileID: 12800000, guid: 8a954cea390bc6a4aa9270adc7f50ea5, type: 3}
+  - {fileID: 12800000, guid: 56000cff6b071ed4d85a4cad8278d21d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

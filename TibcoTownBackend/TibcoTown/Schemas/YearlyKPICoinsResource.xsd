@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tns.tibco.com/bw/json/1626084433043" elementFormDefault="qualified" targetNamespace="http://tns.tibco.com/bw/json/1626084433043">
+  <complexType name="KPICoinsElementType">
+    <sequence>
+      <element maxOccurs="1" minOccurs="0" name="KPICoins">
+        <complexType>
+          <sequence>
+            <element maxOccurs="unbounded" minOccurs="0" name="CoinsDetails">
+              <complexType>
+                <sequence>
+                  <element maxOccurs="1" minOccurs="0" name="KPIId" type="integer"/>
+                  <element maxOccurs="1" minOccurs="0" name="Coins" type="integer"/>
+                                    <element minOccurs="0" name="ProgressBar" type="integer"/>
+                                    <element minOccurs="0" name="Color" type="string"/>
+                                </sequence>
+              </complexType>
+            </element>
+          </sequence>
+        </complexType>
+      </element>
+        </sequence>
+  </complexType>
+  <element name="KPICoinsElement" type="tns:KPICoinsElementType"/>
+</schema>

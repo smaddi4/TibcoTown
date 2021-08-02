@@ -1,0 +1,70 @@
+{
+	"questions": [{
+			"name": "name",
+			"type": "text",
+			"disable": false,
+			"category": "additional selection criteria",
+			"question": "Name(s) -- additional selection criteria",
+			"required": true,
+			"maxLength": 30,
+			"placeHolder": "Name(s)",
+			"useAsFilter": true,
+			"defaultValue": ""
+		},
+		{
+			"name": "lastName",
+			"type": "text",
+			"disable": false,
+			"category": "additional selection criteria",
+			"question": "Last name(s) -- additional selection criteria",
+			"required": true,
+			"maxLength": 30,
+			"placeHolder": "Last name(s)",
+			"useAsFilter": true,
+			"defaultValue": ""
+		},
+		{
+			"name": "phone",
+			"type": "tel",
+			"disable": false,
+			"category": "additional selection criteria",
+			"question": "Cell Phone number -- additional selection criteria",
+			"required": true,
+			"placeHolder": "Cell Phone number",
+			"useAsFilter": true,
+			"defaultValue": ""
+		},
+		{
+			"name": "dob",
+			"type": "date",
+			"format": "MM/dd/yyyy",
+			"disable": false,
+			"category": "additional selection criteria",
+			"question": "Date of birth -- additional selection criteria",
+			"required": true,
+			"placeHolder": "(mm/dd/yyyy)",
+			"useAsFilter": true,
+			"defaultValue": ""
+		},
+		{
+		  "name": "dropdown",
+		  "type": "dropdown",
+		  "disable": false,
+		  "question": "Name(s) -- additional selection criteria",
+		  "options": [
+			"loreum",
+			"ipsum"
+		  ]
+		},
+		{
+		  "name": "mcq",
+		  "type": "mcq",
+		  "disable": false,
+		  "question": "Name(s) -- additional selection criteria",
+		  "options": [
+			"loreum",
+			"ipsum"
+		  ]
+		}
+	]
+}

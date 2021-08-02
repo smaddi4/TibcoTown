@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06773e5595a70441087368d84c902238, type: 3}
+  m_Name: Shopping Center
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 896962856700888123, guid: e01e0f7a80d60d04f907e52591cc1f76, type: 3}
+  price: 50
+  contructionTime: 0
+  profitValue: 0
+  profitTime: 100000
+  buildItemPrefab: {fileID: 1283246608301350, guid: 69b5d29a41b626b4b99f91c0a5ead1f7,
+    type: 3}

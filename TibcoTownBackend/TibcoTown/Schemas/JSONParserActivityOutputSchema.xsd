@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:tibex="http://www.tibco.com/bpel/2007/extensions" xmlns:tns="http://tns.tibco.com/bw/activity/jsonparser/xsd/output" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://tns.tibco.com/bw/activity/jsonparser/xsd/output">
+  <xsd:element name="LoginRequest" tibex:source="bw.json.parser">
+    <xsd:complexType>
+      <xsd:sequence>
+        
+              <xsd:element minOccurs="0" name="CountryId" type="xsd:int"/>
+              <xsd:element name="EmailId" type="xsd:string"/>
+              <xsd:element name="Pin" type="xsd:string"/>
+              <xsd:element minOccurs="0" name="Name" type="xsd:string"/>
+              <xsd:element minOccurs="0" name="Avatar" type="xsd:string"/>
+           
+                <xsd:element name="NewUser" type="xsd:boolean"/>
+            </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

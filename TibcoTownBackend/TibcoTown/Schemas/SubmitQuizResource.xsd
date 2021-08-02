@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tns.tibco.com/bw/json/1626428051026" elementFormDefault="qualified" targetNamespace="http://tns.tibco.com/bw/json/1626428051026">
+  <complexType name="SubmitQuizElementType">
+    <sequence>
+      <element maxOccurs="1" minOccurs="0" name="SubmitQuizRequest">
+        <complexType>
+          <sequence>
+            <element maxOccurs="1" minOccurs="0" name="UserId" type="int"/>
+            <element maxOccurs="unbounded" minOccurs="0" name="QuestionAnswers">
+              <complexType>
+                <sequence>
+                  <element maxOccurs="1" minOccurs="0" name="QuestionId" type="int"/>
+                  <element maxOccurs="1" minOccurs="0" name="AnswerId" type="int"/>
+                </sequence>
+              </complexType>
+            </element>
+          </sequence>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+  <element name="SubmitQuizElement" type="tns:SubmitQuizElementType"/>
+</schema>

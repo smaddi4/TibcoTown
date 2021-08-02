@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:extns="http://tns.tibco.com/bw/json/1627643828756" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions" xmlns:tns="http://tns.tibco.com/bw/activity/jsonRender/xsd/input/db27ce87-256a-4c68-91a8-35cf2164dc72" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://tns.tibco.com/bw/activity/jsonRender/xsd/input/db27ce87-256a-4c68-91a8-35cf2164dc72">
+    <xsd:import namespace="http://tns.tibco.com/bw/json/1627643828756"/>
+    <xsd:element name="Root" tibex:source="bw.json.render" type="extns:LoginResponseElementType">
+  </xsd:element>
+</xsd:schema>

@@ -1,0 +1,13 @@
+{
+    "records": [],
+    "resources": [
+        {
+            "location": "Service Descriptors/tibcotown.RestAPI-RestService.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/tibcotown.main.processes.RestAPI-RestService.json",
+            "type": "generated"
+        }
+    ]
+}

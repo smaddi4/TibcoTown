@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tns.tibco.com/bw/json/1626346780993" elementFormDefault="qualified" targetNamespace="http://tns.tibco.com/bw/json/1626346780993">
+  <complexType name="QuizQuestionsElementType">
+    <sequence>
+      <element maxOccurs="1" minOccurs="0" name="GetQuizQuestionsResponse">
+        <complexType>
+          <sequence>
+            <element maxOccurs="unbounded" minOccurs="0" name="Questions">
+              <complexType>
+                <sequence>
+                  <element maxOccurs="1" minOccurs="0" name="QuestionId" type="integer"/>
+                  <element maxOccurs="1" minOccurs="0" name="QuestionDescription" type="string"/>
+                  <element maxOccurs="1" minOccurs="0" name="CorrectAnswerId" type="integer"/>
+                  <element maxOccurs="unbounded" minOccurs="0" name="Options">
+                    <complexType>
+                      <sequence>
+                        <element maxOccurs="1" minOccurs="0" name="OptionId" type="integer"/>
+                        <element maxOccurs="1" minOccurs="0" name="OptionDescription" type="string"/>
+                        <element maxOccurs="1" minOccurs="0" name="IncludesImage" type="boolean"/>
+                  		<element maxOccurs="1" minOccurs="0" name="Image" type="string"/>
+                      </sequence>
+                    </complexType>
+                  </element>
+                </sequence>
+              </complexType>
+            </element>
+          </sequence>
+        </complexType>
+      </element>
+      <element maxOccurs="1" minOccurs="0" name="Status">
+        <complexType>
+          <sequence>
+            <element maxOccurs="1" minOccurs="0" name="StatusCode" type="integer"/>
+            <element maxOccurs="1" minOccurs="0" name="StatusMessage" type="string"/>
+          </sequence>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+  <element name="QuizQuestionsElement" type="tns:QuizQuestionsElementType"/>
+</schema>

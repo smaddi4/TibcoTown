@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Tabia';
+    src: url('Tabia-DemiBold.eot');
+    src: local('Tabia DemiBold'), local('Tabia-DemiBold'),
+        url('Tabia-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Tabia-DemiBold.woff2') format('woff2'),
+        url('Tabia-DemiBold.woff') format('woff'),
+        url('Tabia-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tabia';
+    src: url('Tabia-ExtraBold.eot');
+    src: local('Tabia ExtraBold'), local('Tabia-ExtraBold'),
+        url('Tabia-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Tabia-ExtraBold.woff2') format('woff2'),
+        url('Tabia-ExtraBold.woff') format('woff'),
+        url('Tabia-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tabia';
+    src: url('Tabia-Medium.eot');
+    src: local('Tabia Medium'), local('Tabia-Medium'),
+        url('Tabia-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Tabia-Medium.woff2') format('woff2'),
+        url('Tabia-Medium.woff') format('woff'),
+        url('Tabia-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tabia Normal';
+    src: url('Tabia-Normal.eot');
+    src: local('Tabia Normal'), local('Tabia-Normal'),
+        url('Tabia-Normal.eot?#iefix') format('embedded-opentype'),
+        url('Tabia-Normal.woff2') format('woff2'),
+        url('Tabia-Normal.woff') format('woff'),
+        url('Tabia-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tabia';
+    src: url('Tabia-SemiBold.eot');
+    src: local('Tabia SemiBold'), local('Tabia-SemiBold'),
+        url('Tabia-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Tabia-SemiBold.woff2') format('woff2'),
+        url('Tabia-SemiBold.woff') format('woff'),
+        url('Tabia-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tabia';
+    src: url('Tabia-Black.eot');
+    src: local('Tabia Black'), local('Tabia-Black'),
+        url('Tabia-Black.eot?#iefix') format('embedded-opentype'),
+        url('Tabia-Black.woff2') format('woff2'),
+        url('Tabia-Black.woff') format('woff'),
+        url('Tabia-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tabia';
+    src: url('Tabia-Light.eot');
+    src: local('Tabia Light'), local('Tabia-Light'),
+        url('Tabia-Light.eot?#iefix') format('embedded-opentype'),
+        url('Tabia-Light.woff2') format('woff2'),
+        url('Tabia-Light.woff') format('woff'),
+        url('Tabia-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tabia';
+    src: url('Tabia-Regular.eot');
+    src: local('Tabia Regular'), local('Tabia-Regular'),
+        url('Tabia-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Tabia-Regular.woff2') format('woff2'),
+        url('Tabia-Regular.woff') format('woff'),
+        url('Tabia-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tabia';
+    src: url('Tabia-Bold.eot');
+    src: local('Tabia Bold'), local('Tabia-Bold'),
+        url('Tabia-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Tabia-Bold.woff2') format('woff2'),
+        url('Tabia-Bold.woff') format('woff'),
+        url('Tabia-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Outlets
+  m_EditorClassIdentifier: Assembly-CSharp::OutletList
+  outlets:
+  - {fileID: 11400000, guid: 8f888497f91784483b12ec596c23972c, type: 2}
+  - {fileID: 11400000, guid: d767e61336d644257a082dcff21583eb, type: 2}
+  - {fileID: 11400000, guid: c02dbe4aa5bf1894ebd90a680ee0f63d, type: 2}
+  - {fileID: 11400000, guid: 0bb55b293dcb00f479e9f5d41270bad7, type: 2}
+  - {fileID: 11400000, guid: 856a5046127866a49a2c19e80021b2a5, type: 2}
+  - {fileID: 11400000, guid: 565f8099249d8894cb1f4e2a0efe9e74, type: 2}
+  - {fileID: 11400000, guid: 6ec71b20187662349accf3e3c25bbd4c, type: 2}
+  - {fileID: 11400000, guid: e3c9ccb7936aa4861ae4f5c1154c815f, type: 2}
+  - {fileID: 11400000, guid: 1b1d12fc751724dfc9bad51e2442cf87, type: 2}
+  - {fileID: 11400000, guid: 0d03e66393d417846929b9cd6393d32d, type: 2}
+  - {fileID: 11400000, guid: 32f3cf54e7c3d4c8da33b9222e91ab2d, type: 2}
+  - {fileID: 11400000, guid: 6f91ceb7ed087a345b5a4c024feffda7, type: 2}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tns.tibco.com/bw/json/1626084519067" elementFormDefault="qualified" targetNamespace="http://tns.tibco.com/bw/json/1626084519067">
+  <complexType name="AssetDetailsElementType">
+    <sequence>
+      <element maxOccurs="1" minOccurs="0" name="AssetDetails">
+        <complexType>
+          <sequence>
+            <element maxOccurs="unbounded" minOccurs="0" name="Assets">
+              <complexType>
+                <sequence>
+                  <element maxOccurs="1" minOccurs="0" name="AssetName" type="string"/>
+                  <element maxOccurs="1" minOccurs="0" name="AssetId" type="integer"/>
+                  <element maxOccurs="1" minOccurs="0" name="Quantity" type="integer"/>
+                  <element maxOccurs="unbounded" minOccurs="0" name="Grid" type="integer"/>
+                </sequence>
+              </complexType>
+            </element>
+          </sequence>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+  <element name="AssetDetailsElement" type="tns:AssetDetailsElementType"/>
+</schema>
